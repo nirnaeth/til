@@ -1,0 +1,3 @@
+# TIL
+
+* how to migrate up and down with globalize and maintain the migrated data
