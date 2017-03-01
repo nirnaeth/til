@@ -1,3 +1,5 @@
 # TIL
 
+* that chaining multiple wheres is easier to debug and understand than using a single where with plain sql
+
 * how to migrate up and down with globalize and maintain the migrated data
