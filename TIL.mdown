@@ -1,4 +1,8 @@
 # TIL
+* how to query for presence of a key with postgres and jsonb
+  ```
+  '{"a":1, "b":2}'::jsonb ? 'b'
+  ```
 
 * that chaining multiple wheres is easier to debug and understand than using a single where with plain sql
 
