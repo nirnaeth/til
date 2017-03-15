@@ -1,4 +1,11 @@
 # TIL
+* `response.value` will raise an exception when the code is not 2xx
+  ```
+  response = http.request(request)
+  response.value or whatever_you_wanna_do_with_the_response
+  ```
+* reviews should start from tests, it's easier to catch flaws in the code
+
 * how to query for presence of a key with postgres and jsonb
   ```
   '{"a":1, "b":2}'::jsonb ? 'b'
